@@ -1,319 +1,189 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-
+	font-family: 'PT Serif', serif;
 }
 
-.header .butoon{
-	background: #eb5757;
-	color: #fff;
-	width: 10%;
-	border-radius: 15px;
-
+body{
+	background-color: #f4f4f4;
 }
 
-.header h5{
-	font-size: 18px;
-	padding-left: 5px;
+/*header bar clinic mobile no Start */
+
+.contact-clinic{
+	font-size: 17px;	
+}
+.contact-clinic:before{
+	content: "\f2a0";
+	font-family:FontAwesome;
+	padding-right: 10px;
 }
 
-.navbar{
-	background: #eb5757;
+.time-table{
+	font-size: 15px;	
+}
+.time-table:before{
+ content: "\f017";
+ font-family:FontAwesome;
+ padding-left: 35px;
+ padding-right: 10px;
 }
 
-.icons a{
-	width:50px;
-	text-align: center;
-	border-radius: 8px;
+/*header bar clinic mobile no  End*/
 
+/*Navigation menu start*/
+
+.Logo img{
+	width: 200px;
+    height: 70px;
 }
 
-.icons .fa{
-	font-size: 24px;
+ .custome-menu{
+	    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    text-transform: uppercase;
+    font-style: 20px;
 }
 
-.banner img{
-	position: relative;
+.active > a.nav-link{
+	color: #f20453 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f20453 !important;
+	transition:0.6s;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  background-color: rgba(0,0,0,0.73);
-}
+/*Navigation menu End*/
 
-.caption{
-	
-	width: 350px;
-	height: 300px;
-	
-	text-align: left;
-	margin-left: 15px;
-}
+/*Specilitiest containent start*/
 
-
-.caption h5{
-	
-	font-size: 60px;
+.specilitied-text-main .heart-title{
+	font-size: 16px;
 	font-weight: bold;
-	letter-spacing: 3px;	
+	color: #706d6b;
+	 text-shadow: 1px 1px 1px #736c6e3d;
 }
 
-.caption p{
-	
-	font-size: 17px;
-	padding-top: 5px;
+.custom-margin{
+	margin-top: 6rem!important;
 }
 
-.btn-outline-secondary {
-	width: 130px;
-    color: #ffffff;
-    background-color: transparent;
-    
-    border-color: #ffffff;
+.specilitied-text-main .specilities-title{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 45px;
 }
 
-.info p{
-	font-size: 14px;
-	margin-bottom: 0px;
+.custom-card-body .fa{
+	    font-size: 80px;
+	    color: #f20453;
+	    text-shadow: 2px 2px 2px #736c6e73; 
 }
 
-.info h1{
+.custom-card-body h5{
+	text-transform: uppercase;
 	font-weight: bold;
+	color: #3d3b3a;
+}
+.custom-card-body p{
+	text-align: justify;
+	font-size: 15px;
 }
 
-.card-blank{
-	width: 65%;
-	height: 270px;
-	background: #000;
-	
-}
+/*Specilitiest containent End*/
 
-.card-blank p{
-	font-size: 32px;
-	color: #fff;
-	padding-left: 20px;
-	padding-top: 10px;
-	text-align: left;
 
-}
-.card-blank h4{
-	font-size: 32px;
+/* About section Start*/
+
+.about-title h6{
+	font-size: 16px;
 	font-weight: bold;
-	color: #fff;
-	text-align: center;
-	margin-top: 5%;
-	
+	color: #706d6b;
+	 text-shadow: 1px 1px 1px #736c6e3d;
+	 text-transform: uppercase;
 }
 
-.card-blank i.fa {
-		color: #fff;
-		font-size: 9rem;
-		margin-top: 15%;		
-		margin-left: 60%;
-		overflow: hidden;
-
+.about-title h1{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 45px;
 }
-
-.custom-roow{
-	text-align: -webkit-center;
-}
-
-.para-text{
-	width: 65%;
-	height: 110px;
-	font-size: 14px;
-	text-align: left;
-
-}
-
-.img-effect{
+.custom-image img{
 	width: 100%;
-	height: 500px;
-	background-image: linear-gradient(rgba(24, 27, 36,0.55), rgba(24, 27, 36,0.55)), url('images/dell1.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 }
 
-.custom-img{
-	position: relative;
-}
-.custom-img h3{
-	position: absolute;
-	top: 5%;
-	right: 2%;
-	color: #ffff;
-	font-size: 54px;
-	padding-top: 25px;
-	text-align: right;	
-	font-weight: bold;
+
+.custom-about-paragraph h4{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 30px;
+	  text-transform: capitalize;
+	  padding-top: 10px;
 }
 
-.custom-img p{
-	position: absolute;
-	right: 20px;
-	top: 250px;
-	color: #fff;
+.custom-about-paragraph .text-paragraph{
+	color: #666462;
 	font-size: 18px;
-	text-align: right;
-	width: 380px;
-	padding-top: 5px;
+	text-align: justify;
 }
 
-.botton{
-	position: absolute;
-	top: 380px;
-	right: 20px;
-}
-
-.botton{
-	background: transparent;
-	border-color: #fff;
-	color: #fff;
-	width: 20%;
-}
-.botton:hover{
-	background: #ffffff29;
-}
-
-.btn:focus{
-	box-shadow: none;
-}
-
-
-
-/*@media screen and (max-width: 699px)
-{
-	.caption
-	{
-		top: 20%;
-	}
-}*/
-
-@media (max-width: 1230px)
-{
-	.caption{
-			right: 75%;
-	    	bottom: 20px;
-	    	top: 20%;
-	    	left: 0;
-	}
-}
-
-
-
-
-@media screen and (min-width: 700px)
-{
-	.caption
-	{
-		right: 72%;
-    	bottom: 20px;
-    	top: 17%;
-    	left: 0;
-	}
-}
-
-
-@media screen and (max-width: 768px)
-{
-	.header .butoon {
-    background: #eb5757;
-    color: #fff;
-    width: 24%;
-    border-radius: 15px;
-    padding-top: 2px;
-}
+.custom-about-paragraph .text-subtitle-pera{
 	
-
-	.header h5 {
-    font-size: 14px;
-    padding-left: 9px;
-    padding-top: 10px;
-	}
-
-	.btn-outline-secondary {
-    width: 24%;
-    height: 25px;
-    color: #ffffff;
-    background-color: transparent;
-    border-color: #ffffff;
-    padding-top: 1px;
-    font-size: 13px;
-	}
-
-	.caption p {
-    font-size: 9px;
-    padding-top: 0px;
-    margin-bottom: 6px;
-	}
-
-	.caption h5 {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 3px;
-	}
-
-	.caption {
-    right: 75%;
-    bottom: 20px;
-    top: 5%;
-    left: 0;
-	}
-
-	.custom-img h3 {
-    position: absolute;
-    /* top: 5%; */
-    right: 7%;
-    color: #ffff;
-    font-size: 33px;
-    padding-top: 69px;
-    text-align: right;
-    font-weight: bold;
+	font-size: 18px;
+	text-align: justify;
 }
 
-	.custom-img p {
-    position: absolute;
-    right: 20px;
-    /* top: 197px; */
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    width: 100%;
-    padding: 0px 10px;    
-	}
 
-	.info h1 {
-    font-weight: bold;
-    padding-left: 20px;
-	}
+/* About section End*/
 
-	.info p {
-    font-size: 20px;
-    margin-bottom: 0px;
-    padding-left: 24px;
-	}	
 
-	.infor p{
-	padding-left: 16px;
-    padding-right: 16px; 
-	}
-
-	.botton {
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-    width: 40%;
-    position: absolute;
-    top: 397px;
-    right: 52px;
-	}
-
+/*Doctor Name Strat*/ 
+.text-title-heading{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 25px;
+	padding: 0px 15px;
 }
+
+.sub-tiltle {
+	padding: 0px 15px;
+}
+
+/*Doctor Name End*/ 
+
+
+/*About cardio Start*/
+
+.title-cardio h4{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 21px;
+	/*padding: 0px 15px;*/
+}
+
+.title-cardio p{
+	text-align: justify;
+	font-size: 15px;	
+}
+
+/*About cardio End*/
+
+/*Gallery section Start*/
+.custom-gallery .title-our{
+	font-size: 16px;
+	font-weight: bold;
+	color: #706d6b;
+	 text-shadow: 1px 1px 1px #736c6e3d;
+	 text-transform: uppercase;
+}
+
+.custom-gallery .title-gallery{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 45px;
+	padding: 0px 15px;
+	text-transform: capitalize;
+}
+}
+/*Gallery section Start*/
